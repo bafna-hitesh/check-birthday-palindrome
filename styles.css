@@ -115,7 +115,7 @@ lottie-player {
 }
 
 .animation{
-    /* display: none; */
+    display: none;
     color: white;
 }
 
