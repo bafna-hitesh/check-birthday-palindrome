@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <title>Birthday Palindrome</title>
+</head>
+<body>
+    <div class="head">
+        <h1>Check out if your Birthdate is Palidrome.</h1>
+    </div>
+    
+    <div class="container">
+        <p>
+            This app checks your birthdate in 4 formats yyyy-mm-dd, dd-mm-yyyy, mm-dd-yy, m-dd-yyyy
+            <br />
+            e.g. if your birthdate is 01 Aug 1995, then app will check for 19950801, 01081995, 080195, 1081995
+        </p>
+    </div>
+    
+    <div class="input-bday">
+        
+        <input type="date" id="date">
+    </div>
+
+    <div class="check-button">
+        <button id="btn" >Check</button>
+
+    </div>    
+    
+    <div id="output"></div>
+    
+    <div class="animation">
+        <lottie-player src=https://assets6.lottiefiles.com/packages/lf20_anys6uvy.json  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
