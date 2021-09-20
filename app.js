@@ -132,7 +132,12 @@ function reverseStr(str) {
   const checkBtn = document.querySelector('#btn');
   const output = document.querySelector('#output');
   const loadingAnime = document.querySelector(".animation");
-
+  
+  checkBtn.addEventListener('click', clickHandler);
+  dateInput.addEventListener('click', () =>{
+    output.style.display = 'none';
+  });
+  // function reset(e){}
   function clickHandler(e){
     var bdayStr = dateInput.value; 
     output.style.display = 'none';
@@ -163,4 +168,3 @@ function reverseStr(str) {
     }  
   }
   
-  checkBtn.addEventListener('click', clickHandler);
